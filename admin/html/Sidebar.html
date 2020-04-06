@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+#mySidenav a {
+  position: absolute;
+  left: -20px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 180px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  display: inline-block;
+  overflow-wrap: hidden;
+}
+
+#mySidenav a:hover {
+  left: 0;
+ 
+}
+
+#update {
+  top: 150px;
+  background-color: #4CAF50;
+}
+
+#all {
+  top: 320px;
+  background-color: #2196F3;
+}
+
+#req {
+  top: 250px;
+  background-color: #f44336;
+}
+
+
+#frd {
+  top: 400px;
+  background-color: #555
+}
+</style>
+</head>
+<body>
+  <div id="mySidenav" class="sidenav"> 
+  
+    <a href="AllEmployees.php" id="update">All Employees</a>
+    <a href="AddTask.php" id="req">Add New Task</a>
+	
+    <a href="AddNewEmployee.php" id="all">Add New Employees</a>
+	
+	 <a href="scheduleTask.php" id="frd">Schedule Task</a>
+  </div>
+  <div style="margin-left:80px;">
+  </div>  
+</body>
+</html> 
