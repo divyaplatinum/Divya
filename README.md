@@ -9,3 +9,10 @@ This is a task management system in PHP ,Javascript and Ajax.This task managemen
 we have to create manualy in database. 
 admin-username : admin@gmail.com ,password :admin123
 user-username : priyanka@gmail.com,password :123
+
+
+
+
+
+
+
